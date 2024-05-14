@@ -1,0 +1,22 @@
+.navbar {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+	padding: 20px;
+	background-color: black;
+}
+
+.navbutton {
+	left: 20px;
+	right: 20px;
+	/* width: 200px; */
+	background-color: black;
+	color: rgb(240, 176, 14);
+}
+button:hover {
+	border-color: rgb(240, 176, 14);
+}
