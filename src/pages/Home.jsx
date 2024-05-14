@@ -7,10 +7,10 @@ export function Home() {
 	return (
 		<div className="home">
 			<h1>Hair shop</h1>
-			{/* <img src={beauty1} alt="Beauty" /> */}
 			<Link to="/shop">
 				<button>Shop now</button>
 			</Link>
+			{/* <img src={beauty1} alt="Beauty" className="image"/> */}
 		</div>
 	);
 }
