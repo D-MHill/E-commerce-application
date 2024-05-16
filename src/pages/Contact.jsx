@@ -53,7 +53,7 @@ export function Contact() {
 					<div>
 						<label> Telephone:</label>
 						<input
-							type="number"
+							type="tel"
 							value={telephone}
 							onChange={(e) => setTelephone(e.target.value)}
 							placeholder="Your Telephone"
