@@ -6,10 +6,12 @@ import "./Home.css";
 export function Home() {
 	return (
 		<div className="home">
-			<h1>Hair shop</h1>
-			<Link to="/shop">
-				<button>Shop now</button>
-			</Link>
+			<div className="container">
+				<h1>Everyday is good hair day</h1>
+				<Link to="/shop">
+					<button className="submit">Shop now</button>
+				</Link>
+			</div>
 			{/* <img src={beauty1} alt="Beauty" className="image"/> */}
 		</div>
 	);

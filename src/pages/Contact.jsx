@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./Contact.css";
 
 export function Contact() {
 	const [name, setName] = useState("");
@@ -24,9 +24,8 @@ export function Contact() {
 	};
 
 	return (
-		<>
-			{" "}
-			<h1>Hello!</h1>
+		<div className="contact-page">
+			<h1>How can we help?</h1>
 			<form onSubmit={(e) => handleSubmit(e)}>
 				<div className="form-container">
 					<div>
@@ -57,14 +56,14 @@ export function Contact() {
 							value={message}
 							onChange={(e) => setMessage(e.target.value)}
 							placeholder="Your Message Here "
-							// rows={4}
-							// cols={200}
+							rows={4}
+							cols={200}
 						/>
 					</div>
 					{formError && <p className="error">{formError}</p>}
 				</div>
-				<button className="submit">Submit</button>
+				<button className="submit1">Submit</button>
 			</form>
-		</>
+		</div>
 	);
 }

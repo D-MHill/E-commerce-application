@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import ShebaLogo from "../../public/Sheba1.png"; // Importing the image
 
 export function Navbar() {
 	return (
 		<div className="navbar">
+			<img src={ShebaLogo} alt="logo" /> 
+			
 			<Link to="/">
 				<button className="navbutton">Home</button>
 			</Link>

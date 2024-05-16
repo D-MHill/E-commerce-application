@@ -1,0 +1,38 @@
+.cart {
+	margin: 100px auto auto 500px;
+	padding: 20px;
+	height: 70vh;
+    width: 90%;
+	
+}
+
+.shop {
+	margin-top: 100px;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.product {
+	width: 30%;
+	margin: 20px 0;
+	padding: 20px;
+	font-size: 16px;
+	border: 1px solid #b99314;
+	border-radius: 5px;
+	background-color: rgb(253, 205, 100);
+	text-align: center;
+}
+
+.product img {
+	height: 200px;
+	object-fit: contain;
+}
+
+.product-info {
+	margin-top: 20px;
+	color: #fff;
+}
