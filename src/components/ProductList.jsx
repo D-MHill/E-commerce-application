@@ -1,14 +1,13 @@
 import React from "react";
 
-
 export function ProductList({ product, cart, setCart }) {
 	function handleClick() {
 		setCart([...cart, product]);
 	}
 
 	return (
-		<div className="product"key={product.title}>
-			<h3>{product.title}</h3>
+		<div className="product" key={product.title}>
+			<h2>{product.title}</h2>
 			<img src={product.image} />
 			<p>{product.desc}</p>
 			<p>£{product.price}</p>

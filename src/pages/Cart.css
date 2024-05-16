@@ -2,14 +2,14 @@
 	margin: 100px auto auto 500px;
 	padding: 20px;
 	height: 70vh;
-    width: 90%;
+    width: 100%;
 	
 }
 
-.shop {
-	margin-top: 100px;
+.shop2 {
+	margin-top: 50%;
 	padding: 0;
-	width: 100%;
+	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -35,4 +35,19 @@
 .product-info {
 	margin-top: 20px;
 	color: #fff;
+}
+
+.submit2{
+    margin-top: 15px;
+    background-color: black;
+	color: rgb(240, 176, 14);
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.submit2:hover {
+	background-color: rgb(220, 156, 10);
+	color: black;
+    
 }

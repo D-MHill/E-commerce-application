@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Cart.css";
 
 export function Cart({ cart, setCart }) {
@@ -10,7 +11,9 @@ export function Cart({ cart, setCart }) {
 		setCart(updatedCart);
 	}
 
-	// function handleCheckout()
+	// function handleCheckout() {
+	//
+	// }
 
 	return (
 		<div className="cart">
@@ -18,14 +21,14 @@ export function Cart({ cart, setCart }) {
 				{cart.map((item, index) => (
 					<div key={index}>
 						<h2>{item.title}</h2>
+						<img src={item.image} alt={item.title} />
 						<p>{item.desc}</p>
 						<button className="submit" onClick={() => handleClick(item)}>
 							Remove Item
 						</button>
 					</div>
 				))}
-
-				{/* <button>Checkout</button> */}
+				<button className="submit2">Checkout</button>
 			</div>
 		</div>
 	);
